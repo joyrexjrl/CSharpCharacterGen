@@ -11,10 +11,10 @@ D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\bin\Debug\M
 D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
 D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
 D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\obj\Debug\CharacterGen.csproj.AssemblyReference.cache
-D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\obj\Debug\CharacterGen.Form1.resources
 D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\obj\Debug\CharacterGen.Properties.Resources.resources
 D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\obj\Debug\CharacterGen.csproj.GenerateResource.cache
 D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\obj\Debug\CharacterGen.csproj.CoreCompileInputs.cache
 D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\obj\Debug\CharacterGen.csproj.CopyComplete
 D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\obj\Debug\CharacterGen.exe
 D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\obj\Debug\CharacterGen.pdb
+D:\CsCharacterGenerater\CSharpCharacterGen\CharacterGen\CharacterGen\obj\Debug\CharacterGen.CharacterGen.resources

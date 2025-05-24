@@ -38,19 +38,19 @@ namespace CharacterGen
             this.webViewDisplay.AllowExternalDrop = true;
             this.webViewDisplay.CreationProperties = null;
             this.webViewDisplay.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.webViewDisplay.Location = new System.Drawing.Point(762, 12);
+            this.webViewDisplay.Location = new System.Drawing.Point(704, 12);
             this.webViewDisplay.Name = "webViewDisplay";
-            this.webViewDisplay.Size = new System.Drawing.Size(584, 795);
+            this.webViewDisplay.Size = new System.Drawing.Size(642, 795);
             this.webViewDisplay.TabIndex = 0;
             this.webViewDisplay.ZoomFactor = 1D;
             // 
-            // Form1
+            // CharacterGen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1358, 819);
             this.Controls.Add(this.webViewDisplay);
-            this.Name = "Form1";
+            this.Name = "CharacterGen";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.FormLoad);
             ((System.ComponentModel.ISupportInitialize)(this.webViewDisplay)).EndInit();

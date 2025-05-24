@@ -15,11 +15,20 @@ namespace CharacterGen
         public CharacterGen()
         {
             InitializeComponent();
+            
+            Load += FormLoad;
         }
 
         async void FormLoad(object sender, EventArgs e)
         {
             await webViewDisplay.EnsureCoreWebView2Async(null);
+            PopulateWebView();
+        }
+
+        void PopulateWebView()
+        {
+            var html = HtmlBuilder.Build(SheetTemplates.OsrCharacterSheet);
+            webViewDisplay.NavigateToString(html);
         }
     }
 }

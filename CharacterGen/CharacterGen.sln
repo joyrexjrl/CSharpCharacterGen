@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36107.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterGen", "CharacterGen\CharacterGen.csproj", "{FC1EB417-B9FE-486F-A683-E7D8820CF277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC1EB417-B9FE-486F-A683-E7D8820CF277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1EB417-B9FE-486F-A683-E7D8820CF277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1EB417-B9FE-486F-A683-E7D8820CF277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1EB417-B9FE-486F-A683-E7D8820CF277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F5475EC-9EBA-48C6-A17F-65B6FDCA8C82}
+	EndGlobalSection
+EndGlobal

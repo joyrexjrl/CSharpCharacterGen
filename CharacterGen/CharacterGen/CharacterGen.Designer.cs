@@ -38,9 +38,9 @@ namespace CharacterGen
             this.webViewDisplay.AllowExternalDrop = true;
             this.webViewDisplay.CreationProperties = null;
             this.webViewDisplay.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.webViewDisplay.Location = new System.Drawing.Point(704, 12);
+            this.webViewDisplay.Location = new System.Drawing.Point(695, 12);
             this.webViewDisplay.Name = "webViewDisplay";
-            this.webViewDisplay.Size = new System.Drawing.Size(642, 795);
+            this.webViewDisplay.Size = new System.Drawing.Size(651, 795);
             this.webViewDisplay.TabIndex = 0;
             this.webViewDisplay.ZoomFactor = 1D;
             // 

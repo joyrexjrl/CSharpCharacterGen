@@ -23,10 +23,31 @@ namespace CharacterGen
             string oseCssPath = Path.Combine(projectRoot, "CSS", "oseStyle.css");
             string oseCss = File.ReadAllText(oseCssPath);
 
+            string tekoRegularUri = GetFontUri("teko-v22-latin-regular.woff2");
+            string tekoSemiBoldUri = GetFontUri("teko-v22-latin-600.woff2");
+            string novaSquareUri = GetFontUri("NovaSquare-Regular.ttf");
+
+            string fontFace = $@"
+                @font-face {{
+                    font-family: 'Teko';
+                    src: url('{tekoRegularUri}') format('woff2');
+                    font-weight: 400;
+                }}
+                @font-face {{
+                    font-family: 'Teko';
+                    src: url('{tekoSemiBoldUri}') format('woff2');
+                    font-weight: 600;
+                }}
+                @font-face {{
+                    font-family: 'Nova Square';
+                    src: url('{novaSquareUri}') format('truetype');
+                }}";
+
             return $@"
             <html>
                 <head>
                     <style>
+                        {fontFace}
                         {mainStyle}
                         {resets}
                         {oseCss}
@@ -36,6 +57,13 @@ namespace CharacterGen
                     {sheet}
                 </body>
             </html>";
+        }
+
+        static string GetFontUri(string fileName)
+        {
+            string projectRoot = Directory.GetParent(Application.StartupPath)?.Parent?.FullName;
+            string fontPath = Path.Combine(projectRoot, "Fonts", fileName);
+            return new Uri(fontPath).AbsoluteUri;
         }
     }
 }
